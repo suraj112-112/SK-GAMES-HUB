@@ -3,101 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> SK Game Hub - Home</title>
+    <title>Amazon.in</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <h1>SK Game Hub</h1>
-        <p>10+ Exciting Games to Play!</p>
-    </header>
-    <div class="game-gallery">
-        <div class="game-item" onclick="openGame('game1.html')">
-            <img src="box.jpg" alt="box fight">
-            <h2>Box Fight</h2>
-            <button>Play</button>
-        </div>
-        
-        <div class="game-item" onclick="openGame('game2.html')">
-            <img src="Bollhit.jpg" alt="Bollhit">
-            <h2>Boll Hit</h2>
-            <a href="game2.html"><button>Play</button></a>
-        </div>
-        <div class="game-item" onclick="openGame('game3.html')">
-            <img src="Candycrush.jpg" alt="Candycrush">
-            <h2>Color Mind</h2>
-            <a href="game3.html"><button>Play</button></a>
-        </div>
-    <div class="game-item" onclick="openGame('cal.html')">
-        <img src="calculator.jpg" alt="calculator">
-        <h2>Calculator</h2>
-        <a href="cal.html"><button>Play</button></a>
-    </div>
-<div class="game-item" onclick="openGame('snake.html')">
-    <img src="snake.jpg" alt="snake">
-    <h2>Snake Bite</h2>
-    <a href="snake.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game4.html')">
-    <img src="candy.jpg" alt="Candycrush">
-    <h2>Color Crush</h2>
-    <a href="game4.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game5.html')">
-    <img src="bubbles.jpg" alt="Bubbles Hit">
-    <h2>Bubble pop</h2>
-    <a href="game5.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game6.html')">
-    <img src="Guss.jpg" alt="Guessing Number">
-    <h2>Guessing Number</h2>
-    <a href="game6.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game7.html')">
-    <img src="Tik Tok Toe.jpg" alt="Tic-Tac-Toe">
-    <h2>Tik Tok Toe</h2>
-    <a href="game7.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game9.html')">
-    <img src="block fill.jpg" alt="block fill">
-    <h2>Block Fill</h2>
-    <a href="game9.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game8.html')">
-    <img src="water sort.jpg" alt="water sort">
-    <h2>Water Sort</h2>
-    <a href="game8.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game10.html')">
-    <img src="word finder.jpg" alt="Word Finder">
-    <h2>Word Finder</h2>
-    <a href="game10.html"><button>Play</button></a>
-</div>
-<div class="game-item" onclick="openGame('game11.html')">
-    <img src="" alt="">
-    <h2>COMMING SOON...</h2>
-    <a href="game11.html"><button>Play</button></a>
+ <header>
+     <div class="navbar">
+         <div class="nav-logo border">
+            <div class="logo"></div>
+             </div>
+             <div class="nav-address border">
+                <p class="add1">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add2"><a href="https://www.google.com/maps/place/India/@23.8075453,73.8992741,4.63z/data=!4m15!1m8!3m7!1s0x30635ff06b92b791:0xd78c4fa1854213a6!2sIndia!3b1!8m2!3d20.593684!4d78.96288!16zL20vMDNyazA!3m5!1s0x30635ff06b92b791:0xd78c4fa1854213a6!8m2!3d20.593684!4d78.96288!16zL20vMDNyazA?entry=ttu"target="-main">India</a></p>
+                </div>
+             </div>
+             <div class="nav-search">
+                <select class="search-select">
+                    <option>All
+                        <option value="Beauti-products">Beauti-products</option>
+                        <option value="T-shirt">T-shirt</option>
+                        <option value="Suchs">Suchs</option>>
+                        <option value="Mens-were">mens-were</option>>
+                        <option value="Toops">Toops</option>
+                        <option value="Shirts">Shirts</option>
+                    </option>
+                    <input placeholder="search Amazon" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+
+                    <div class="nav-singin border">
+                        <p><span><a href="sign in.html"target="-main" style="color: white;text-decoration-line: none;">Hello, sign in</a></span></p>
+                        <p class="nav-2">Account & Lists</p>
+                    </div>
+
+                    <div class="nav-returns border" >
+                        <p><a href="user id password.html" style="color: white;text-decoration: none;">Returns<span></span></p>
+                        <p class="nav-2">& Orders</p></a>
+                    </div>
+
+                </select>
+<div class="nav-cart border">
+   <a href="cart.html" style="color: white;text-decoration: none;"><i class="fa-solid fa-cart-shopping"></i>cart</a>
 </div>
 </div>
 
-<footer class="footer">
-    <div class="footer-content">
-        <h2>SK Game Hub</h2>
-        <p>Welcome to SK Game Hub, your ultimate destination for fun and challenging games. Whether you're here to pass the time or challenge your skills, we have a game for everyone. Discover, play, and enjoy a wide variety of games tailored just for you!</p>
-        
-        <div class="social-links">
-            <a href="#" class="social-icon">Facebook</a>
-            <a href="#" class="social-icon">Instagram</a>
-            <a href="#" class="social-icon">Twitter</a>
-            <a href="#" class="social-icon">LinkedIn</a>
+ <!-- second boder  -->
+
+<div class="panel">
+    <div class="panel-all border">
+        <i class="fa-solid fa-bars"></i>
+        All
+    </div>
+    <div class="panel-option">
+        <p>Today's Deals</p>
+        <p>Customber Service</p>
+        <p>Registry</p>
+        <p>Gift Carts</p>
+        <p>Sell</p>
+    </div>
+    <div class="panel-deals">
+        shop deals in Electronics
+    </div>
+</div>
+  </header>
+
+  <div class="hero-section">
+    <div class="hero-msg">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click hear to go to amazon.in</a></p>
+    </div>
+  </div>
+
+  <div class="shop-section">
+     <div class="box1 box">
+         <div class="box-content">
+             <h2>Minimum 50% off | Indoor plants</h2>
+             <div class="box-img" style="background-image:url('box1.jpg');"></div>
+             <p>See more</p>
+            </div>
         </div>
+         <div class="box2 box">
+             <div class="box-content">
+              <h2>Up to 60% off | bike parts & accessories</h2>
+              <div class="box-img" style="background-image:url('box2.jpg');"></div>
+              <p>See more</p>
+            </div>
+       </div>
+       <div class="box3 box">
+          <div class="box-content">
+             <h2>Up to 50% off | International brands</h2>
+             <div class="box-img" style="background-image:url('box3.jpg');"></div>
+             <p>See more</p>
+          </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+              <h2>Up to 60% off | Unique products </h2>
+              <div class="box-img" style="background-image:url('box4.jpg');"></div>
+              <p>See more</p>
+            </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+                <h2>Minimum 50% off | Indoor plants</h2>
+                <div class="box-img" style="background-image:url('box7.jpg');"></div>
+                <p>See more</p>
+               </div>
+           </div>
+            <div class="box6 box">
+                <div class="box-content">
+                 <h2>Up to 60% off | bike parts & accessories</h2>
+                 <div class="box-img" style="background-image:url('box6.jpg');"></div>
+                 <p>See more</p>
+               </div>
+          </div>
+          <div class="box7 box">
+             <div class="box-content">
+                <h2>Up to 50% off | International brands</h2>
+                <div class="box-img" style="background-image:url('box5.jpg');"></div>
+                <p>See more</p>
+             </div>
+           </div>
+           <div class="box8 box">
+               <div class="box-content">
+                 <h2>Up to 60% off | Unique products  </h2>
+                 <div class="box-img" style="background-image:url('box8.jpg');"></div>
+                 <p>See more</p>
+               </div>
+           </div>
     </div>
-    <div class="footer-bottom">
-        <p>© 2024 SK Game Hub. All Rights Reserved.</p>
-    </div>
-</footer>
-
-
-    <script src="script.js"></script>
+    <footer>
+        <div class="foot-panel1">
+            <a href="index.html"style="color: white;text-decoration: none;" >Back to Top</a>
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Us</a>
+                <a>Investor Realtion</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a href="facebook.html"style="color: #dddddd;text-decoration: none;" >facebook</a>
+                <a href="tweeter.html"style="color: #dddddd;text-decoration: none;" >Tweeter</a>
+                <a href="instagram.html"style="color: #dddddd;text-decoration: none;" >Instagram</a>
+                <a>Investor Realtion</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a> Sell on Amazon</a>
+                <a>Sell under Amazon Accelerator</a>
+                <a>Protect and Build Your Brand</a>
+                <a>Amazon Global Selling</a>
+                <a>Become an Affiliate</a>
+                <a>Fulfilment by Amazon</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>COVID-19 and Amazon</a>
+                <a>Your Account</a>
+                <a>Returns Centre</a>
+                <a> Advertise Your Products</a>
+                <a> Amazon Pay on Merchants</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <a href=""><div class="logo"></div></a>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Pravacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
 </body>
 </html>
